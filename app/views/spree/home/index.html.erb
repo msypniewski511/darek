@@ -16,50 +16,7 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-6">
 
-      <%= link_to spree.nested_taxons_path('men'), class: "homepage-taxon-box mb-3" do %>
-        <img class="w-100 lazyload"
-          data-src="<%= asset_path('homepage/category_banner_upper.jpg') %>"
-          data-srcset="<%= image_source_set('homepage/category_banner_upper') %>"
-          alt="Men">
-
-        <div class="homepage-taxon-box-text">
-          <h3>Men</h3>
-        </div>
-      <% end %>
-
-      <%= link_to spree.nested_taxons_path('sportswear'), class: "homepage-taxon-box" do %>
-        <img class="w-100 lazyload"
-          data-src="<%= asset_path('homepage/category_banner_lower.jpg') %>"
-          data-srcset="<%= image_source_set('homepage/category_banner_lower') %>"
-          alt="Sportswear">
-
-        <div class="homepage-taxon-box-text" role="img" aria-label="Sportswear">
-          <h3>Sportswear</h3>
-        </div>
-      <% end %>
-
-    </div>
-
-    <div class="col-6 d-flex flex-column">
-
-      <%= link_to spree.nested_taxons_path('women'), class: "homepage-taxon-box flex-grow-1" do %>
-        <img class="w-100 lazyload"
-          data-src="<%= asset_path('homepage/big_category_banner.jpg') %>"
-          data-srcset="<%= image_source_set('homepage/big_category_banner') %>"
-          alt="Women">
-
-        <div class="homepage-taxon-box-text">
-          <h3>Women</h3>
-        </div>
-      <% end %>
-
-    </div>
-  </div>
-</div>
 
 <div data-product-carousel data-product-carousel-taxon-id='bestsellers' class="my-3"></div>
 
