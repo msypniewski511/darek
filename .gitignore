@@ -48,4 +48,3 @@ node_modules
 /node_modules
 yarn-debug.log*
 .yarn-integrity
-Gemfile.lock
