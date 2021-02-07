@@ -1,4 +1,4 @@
-$primary-color: green;
+$primary-color: rgba(183, 94, 66, 1);
 $secondary-color: #4c4c4c;
 $primary-background: #ffffff;
 $secondary-background: #f2f2f2;
@@ -18,6 +18,3 @@ $spree-header-max-width: 1440px;
 $spree-header-mobile-height: 50px;
 $spree-header-tablet-height: 75px;
 $spree-header-desktop-height: 75px;
-body {
-  background: linear-gradient(90deg, #e66465 0 70%, #fff 30%);
-}
