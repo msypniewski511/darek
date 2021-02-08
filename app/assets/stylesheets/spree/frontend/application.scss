@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila&display=swap');
 @import 'spree/frontend/variables/variables';
 @import 'spree/frontend/variables/bootstrap-overrides';
 @import 'spree/frontend/variables/helper-variables';
@@ -60,5 +61,5 @@
 @import 'spree/frontend/views/spree/shared/delete_address_popup';
 
 body {
-  background: linear-gradient(90deg, rgba(244, 234, 226, 1) 0 70%, #fff 70%);
+  background: linear-gradient(90deg, #fff 0 30%, rgba(244, 234, 226, 1) 30%);
 }

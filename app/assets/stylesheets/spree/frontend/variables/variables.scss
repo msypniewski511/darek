@@ -3,14 +3,21 @@ $secondary-color: #4c4c4c;
 $primary-background: #ffffff;
 $secondary-background: #f2f2f2;
 $input-background: #ffffff;
-$font-color: black;
-$font-family: 'Montserrat', sans-serif;
-$header-font-color: $font-color;
+$font-color: $primary-color;
+// $font-family: 'Montserrat', sans-serif;
+$font-family: 'Laila', serif;
+
+$header-font-color: $primary-color;
 $header-background: $primary-background;
 $meganav-font-color: $font-color;
 $meganav-background: $primary-background;
 $footer-font-color: $font-color;
-$footer-background: $primary-background;
+$footer-background: linear-gradient(
+  90deg,
+  #fff 0 30%,
+  rgba(244, 234, 226, 1) 30%
+);
+// $footer-background: $primary-background;
 $secondary-font-color: $font-color;
 $global-border-style: #e2e2e2;
 $second-global-border: #e2e2e2;
