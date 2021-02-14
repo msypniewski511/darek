@@ -89,6 +89,7 @@ end
 
 # file uploades & assets
 gem 'aws-sdk-s3', require: false
+gem 'google-cloud-storage'
 
 # caching
 gem 'dalli' # memcache

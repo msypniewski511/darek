@@ -2,6 +2,9 @@
 
 <div class='container p-1'>
   <div class='p-2'></div>
+
+  <div class='bg-primary' style='height:100px;width:100px'></div>
+
   <div class="homepage-hero-image mb-3 position-relative">
     <img class="lazyload hero-image position-absolute"
       data-src="<%= asset_path('homepage/main_banner.jpg') %>"
@@ -20,7 +23,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-6">
+    <div class="col-6 pr-3 pl-0">
 
       <%= link_to spree.nested_taxons_path('men'), class: "homepage-taxon-box mb-3" do %>
         <img class="w-100 lazyload"
@@ -46,7 +49,7 @@
 
     </div>
 
-    <div class="col-6 d-flex flex-column">
+    <div class="col-6 d-flex flex-column pr-0">
 
       <%= link_to spree.nested_taxons_path('women'), class: "homepage-taxon-box flex-grow-1" do %>
         <img class="w-100 lazyload"

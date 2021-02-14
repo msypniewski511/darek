@@ -19,3 +19,12 @@ Spree.config do |config|
 end
 
 Spree.user_class = 'Spree::User'
+
+# attachment_config = {
+#   path:           "/:class/:id/:style/:basename.:extension",
+#   default_url:    "/:class/:id/:style/:basename.:extension",
+# }
+
+# attachment_config.each do |key, value|
+#   Spree::Image.attachment_definitions[:attachment][key.to_sym] = value
+# end

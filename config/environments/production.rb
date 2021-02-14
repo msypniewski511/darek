@@ -46,7 +46,7 @@ Rails.application.configure do
   if ENV['BUCKETEER_AWS_ACCESS_KEY_ID'].present? && ENV['BUCKETEER_AWS_SECRET_ACCESS_KEY'].present?
     config.active_storage.service = :amazon
   else
-    config.active_storage.service = :local
+    config.active_storage.service = :google
   end
 
   # Mount Action Cable outside main process or domain.
