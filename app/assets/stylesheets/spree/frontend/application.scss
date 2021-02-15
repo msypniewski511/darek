@@ -63,3 +63,28 @@
 body {
   background: linear-gradient(90deg, white 0 30%, rgba(244, 234, 226, 1) 30%);
 }
+.rgba body,
+.rgba input,
+.rgba select,
+.rgba textarea {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 780px) {
+  body {
+    border: 20px solid rgb(32, 2, 53);
+  }
+}
+@media screen and (min-width: 480px) {
+  body {
+    border: 15px solid rgb(32, 2, 53);
+    // border-top: none;
+  }
+  #header {
+    border-top: 15px solid rgb(32, 2, 53);
+  }
+}
+// body,
+// html {
+//   background: #f0f0f0;
+// }
