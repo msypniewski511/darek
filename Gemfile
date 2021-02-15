@@ -88,7 +88,7 @@ group :production do
 end
 
 # file uploades & assets
-gem 'aws-sdk-s3', require: false
+# gem 'aws-sdk-s3', require: false
 gem 'google-cloud-storage'
 
 # caching
